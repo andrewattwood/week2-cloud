@@ -57,7 +57,7 @@ Object.entries(nodes).forEach(([hostname,ip]) => {
         console.log("Subscriber connected to port 3000 of " + hostname); 
         tempsoc.on("message", function(topic, message) { 
             console.log( 
-            "AA :-) received a message from " + hostname + " related to:", 
+            "AA :-) helllllooooo received a message from " + hostname + " related to:", 
             topic.toString("utf-8"), 
             "containing message:", 
             message.toString("utf-8") 
